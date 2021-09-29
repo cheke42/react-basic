@@ -5,6 +5,7 @@ import Propiedades from './components/Propiedades';
 import Estado from './components/Estado';
 import RenderizadoCondicional from './components/RenderizadoCondicional';
 import RenderizadoElementos from './components/RenderizadoElementos';
+import GitTest from './components/GitTest';
 
 function App() {
   return (
@@ -43,6 +44,9 @@ function App() {
           <RenderizadoCondicional />
           <hr></hr>
           <RenderizadoElementos />
+          <hr></hr>
+          <GitTest saludo="Un saludo"/>
+          
       </section>
       </header>
       
