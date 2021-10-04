@@ -88,6 +88,7 @@ function Boton(props){
  * const Boton = (props) => <button onClick={props.myOnClick}>Botón hecho componente</button>
  */
 
+/** LVL3 */
  const Boton = ({myOnClick}) => <button onClick={myOnClick}>Botón hecho componente</button>
 
 export class MasSobreEventos extends React.Component{
