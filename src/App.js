@@ -6,7 +6,7 @@ import Estado from './components/Estado';
 import RenderizadoCondicional from './components/RenderizadoCondicional';
 import RenderizadoElementos from './components/RenderizadoElementos';
 import GitTest from './components/GitTest';
-import Eventos from './components/Eventos';
+import {EventosES6, EventosES7} from './components/Eventos';
 
 
 function App() {
@@ -49,7 +49,9 @@ function App() {
           <hr/>
           <GitTest saludo="Un saludo"/>
           <hr/>
-          <Eventos />
+          <EventosES6 />
+          <hr/>
+          <EventosES7 />
       </section>
       </header>
       
