@@ -6,6 +6,8 @@ import Estado from './components/Estado';
 import RenderizadoCondicional from './components/RenderizadoCondicional';
 import RenderizadoElementos from './components/RenderizadoElementos';
 import GitTest from './components/GitTest';
+import Eventos from './components/Eventos';
+
 
 function App() {
   return (
@@ -38,15 +40,16 @@ function App() {
               elementoReact={<i>Esto es un elemento React</i>}
               componenteReact={<Componente msg="Esto es un segundo mensaje"/>} 
           />
-          <hr></hr>
+          <hr/>
           <Estado />
-          <hr></hr>
+          <hr />
           <RenderizadoCondicional />
-          <hr></hr>
+          <hr/>
           <RenderizadoElementos />
-          <hr></hr>
+          <hr/>
           <GitTest saludo="Un saludo"/>
-          
+          <hr/>
+          <Eventos />
       </section>
       </header>
       
