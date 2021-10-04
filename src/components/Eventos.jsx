@@ -76,9 +76,19 @@ export class EventosES7 extends React.Component{
     }
 }
 
+
+
+/** LVL 1
 function Boton(props){
     return (<button onClick={props.myOnClick}>Botón hecho componente</button>)
 }
+*/
+
+/** LVL 2
+ * const Boton = (props) => <button onClick={props.myOnClick}>Botón hecho componente</button>
+ */
+
+ const Boton = ({myOnClick}) => <button onClick={myOnClick}>Botón hecho componente</button>
 
 export class MasSobreEventos extends React.Component{
 
