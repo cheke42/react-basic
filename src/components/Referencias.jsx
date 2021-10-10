@@ -34,15 +34,15 @@ export default function Referencias() {
         Menú
       </button>
       <nav id="menu" ref={refMenu} style={{ display: "none" }}>
-        <a href="#">Sección 1</a>
+        <a href="htt://google.com">Sección 1</a>
         <br />
-        <a href="#">Sección 2</a>
+        <a href="htt://google.com">Sección 2</a>
         <br />
-        <a href="#">Sección 3</a>
+        <a href="htt://google.com">Sección 3</a>
         <br />
-        <a href="#">Sección 4</a>
+        <a href="htt://google.com">Sección 4</a>
         <br />
-        <a href="#">Sección 5</a>
+        <a href="htt://google.com">Sección 5</a>
       </nav>
     </>
   );
